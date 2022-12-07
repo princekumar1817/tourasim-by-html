@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravelers</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>India is adventure</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="https://www.google.com/search?q=images+of+mumbai&tbm=isch&ved=2ahUKEwiv38f7jtv7AhWTxqACHa8KANQQ2-cCegQIABAA&oq=images+of+mumbai&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJzoICAAQgAQQsQNQ-QVYlB1gnytoAHAAeACAAdALiAG8O5IBCzMtMS4wLjMuMy4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=7QeKY--0B5ONg8UPr5WAoA0&bih=754&biw=1536"><img src="m-2.jpg" alt=""><h1 style="color: orange; text-decoration: underline;">MORE IMAGES</h1></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Mumbai is full of craziness, which makes it the place to make you to come here. !</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.5999 <span>Rs7900.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="https://www.google.com/search?q=images+of+delhi&sxsrf=ALiCzsYAjUni_J1OmpITTadE1bXd3gUE9w:1669990378003&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjL_4j6jtv7AhWIwjgGHRybDCcQ_AUoAXoECAIQAw&biw=1536&bih=754&dpr=1.25"><img src="cover-10.jpg" alt=""><h1 style="color:orange; text-decoration: underline;">MORE IMAGES</h1></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Delhi </h3>
+                <p>The only reason to visit Delhi is because you’re going to love it.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.4999.00 <span> Rs.6900.00 </span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="https://www.google.com/search?q=images+of+kolkata&tbm=isch&ved=2ahUKEwjdttfGkNv7AhWg_jgGHeYJCQcQ2-cCegQIABAA&oq=images+of+kolkata&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAUQHjIGCAAQBRAeMgYIABAFEB46BAgAEEM6BAgjECc6CAgAEIAEELEDUMoFWL8mYNEtaABwAHgAgAHWAYgB6g-SAQYwLjEzLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=lwmKY52PBqD94-EP5pOkOA&bih=754&biw=1536"><img src="k-1.jpg" alt=""><h1 style="color: orange; text-decoration: underline;">MORE IMAGES</h1></a>
+            <div class="content">
+
+                <h3> <i class="fas fa-map-marker-alt"></i> Kolkata </h3>
+                <p>Calcutta is beautiful Wherever you place a camera, you get a vision.!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.5999 <span>Rs.8000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="https://www.google.com/search?q=images+of+jammu+and+kashmir&tbm=isch&ved=2ahUKEwj-3diYktv7AhX5_TgGHb7gAu8Q2-cCegQIABAA&oq=images+of+jamm&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQBRAeMgcIABCABBAYMgcIABCABBAYMgcIABCABBAYOgQIIxAnOgYIABAHEB46CAgAEIAEELEDUNsFWPYbYMMmaABwAHgAgAGpAogB0A6SAQYwLjExLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=TwuKY776H_n74-EPvsGL-A4&bih=754&biw=1536"><img src="jk1.jpg" alt=""><h1 style="color: orange; text-decoration: underline;">MORE IMAGES</h1></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> jammu & kashmir </h3>
+                <p>If there is heaven on earth.<br>
+                    "it is here in kashmir". </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.8999 <span>Rs10000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="https://www.google.com/search?q=images+of+gangtok&tbm=isch&ved=2ahUKEwj00rjCk9v7AhVrndgFHXqSDQ0Q2-cCegQIABAA&oq=images+of+gangtok&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgcIABCABBAYOgQIIxAnUOAOWOAOYPgRaABwAHgAgAHiAYgB5gKSAQUwLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=swyKY7StH-u64t4P-qS2aA&bih=754&biw=1536"><img src="gn.webp" alt=""><h1 style="color: orange; text-decoration: underline;">MORE IMAGES</h1></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> gangtok </h3>
+                <p>If you see no one polluting any place, Welcome you are in Gangtok..</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.8999.00 <span>Rs.10000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="https://www.google.com/search?q=images+of+goa&tbm=isch&ved=2ahUKEwiqn8PEk9v7AhWSj9gFHag9AJ4Q2-cCegQIABAA&oq=images+of+goa&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BwgAEIAEEBhQmwVYsx1g7x9oAHAAeACAAaYBiAH_CZIBAzAuOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=twyKY-rnNZKf4t4PqPuA8Ak&bih=754&biw=1536"><img src="goa2.jpg" alt=""><h1 style="color: orange; text-decoration: underline;">MORE IMAGES</h1></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Goa </h3>
+                <p>Life is not meant to be one place.<br>
+                     come and visit  to Goa.”</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Rs.10999.00 <span>Rs.13000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Providing the best hotels all over the india in very affordable prices!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>serving delicious food and drinks according to your taste and range!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>your safety is our concern, providing a separate guide to all trips for your safety and better enjoyement!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the India</h3>
+            <p>service available all over the india, always prepare and available for your service!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Already booked flights,trains,buses and taxies for providing you fastest travelling without any interruption!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Do come and visit india to find the fun, enjoyement, humanity and never met before adventure!</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="h1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Himalayas, HIMACHAL PRADESH</p>
+                <a href="https://www.google.com/search?q=places+to+visit+in+jammu+and+kashmir&tbm=isch&ved=2ahUKEwjLiJGomdv7AhVygGMGHaSDC3cQ2-cCegQIABAA&oq=places+to+visit+in+JAMMU+&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBAgAEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBwgAEIAEEBgyBwgAEIAEEBgyBwgAEIAEEBgyBwgAEIAEEBg6BAgjECc6BggAEAcQHjoGCAAQCBAeUNMHWLZPYINdaABwAHgBgAGiK4gBtYEBkgEIMC4xMC45LTOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=xhKKY8uNOvKAjuMPpIeuuAc&bih=754&biw=1536&hl=en-GB" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="taj1.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Taj mahal, AGRA</p>
+                <a href="https://www.google.com/search?q=places+to+visit+in+up&tbm=isch&ved=2ahUKEwiJzo_kltv7AhVdg2MGHViXDM4Q2-cCegQIABAA&oq=places+to+visit+in+up&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAUQHjIGCAAQBRAeMgYIABAIEB46BAgjECc6BAgAEEM6BggAEAcQHjoHCAAQgAQQGFDxBFiUF2CoSGgAcAB4AIAB6gOIAYkPkgEJMC42LjAuMi4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=HxCKY8nCG92GjuMP2K6y8Aw&bih=754&biw=1536&hl=en-GB" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="a1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Golden temple, AMRITSAR</p>
+                <a href="https://www.google.com/search?q=places+to+visit+in+punjab&tbm=isch&ved=2ahUKEwjT89jAltv7AhUqgmMGHVw2CvUQ2-cCegQIABAA&oq=places+to+visit+&gs_lcp=CgNpbWcQARgAMgQIABBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIIxAnOgcIIxDqAhAnOgcIABCxAxBDOggIABCABBCxAzoJCAAQgAQQChAYULfRAlihjgNggJcDaAJwAHgCgAHoC4gBpjaSARAwLjEwLjMuMi42LTMuMC4xmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=1Q-KY5O1CaqEjuMP3OyoqA8&bih=754&biw=1536&hl=en-GB" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="r1.gif" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Thar Desert, RAJASTHAN</p>
+                <a href="https://www.google.com/search?q=places+to+visit+in+rajasthan&tbm=isch&ved=2ahUKEwjnkKz-ltv7AhW0_jgGHcmcA_sQ2-cCegQIABAA&oq=places+to+visit+in+raja&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB46BAgjECc6BggAEAcQHlDpBViRFGDqHmgAcAB4AIABrQGIAfQHkgEDMC43mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=VhCKY-eNG7T94-EPybmO2A8&bih=754&biw=1536&hl=en-GB" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="r2.webp" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Nahagarh Fort, JAIPUR</p>
+                <a href="https://www.google.com/search?q=forts+to+visit+in+rajasthan&tbm=isch&ved=2ahUKEwi9nPmJl9v7AhUzxaACHaMcD-kQ2-cCegQIABAA&oq=forts+to+visit+in+rajasthan&gs_lcp=CgNpbWcQAzIHCAAQgAQQGDoECCMQJzoFCAAQgAQ6BggAEAcQHjoGCAAQCBAeUJILWP9MYIJYaABwAHgAgAGUCYgBvyCSAQc1LTEuMy4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=bhCKY72tL7OKg8UPo7m8yA4&bih=754&biw=1536&hl=en-GBs" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="a2.webp" alt="">
+            <div class="content">
+                <h3></h3>
+                <p>Atal Bridge, AHMEDABAD</p>
+                <a href="https://www.google.com/search?q=places+to+visit+in+gujarat&tbm=isch&ved=2ahUKEwiD9sXQl9v7AhXIi9gFHVkVDPsQ2-cCegQIABAA&oq=places+to+visit+in+gujarat&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB46BAgjECc6BggAEAcQHjoICAAQBRAHEB46CAgAEAgQBxAeOgYIABAIEB46BAgAEB5QuQVYyVlg-l5oAXAAeACAAaMGiAHCNpIBCjAuMjIuNS01LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=AhGKY4PtMsiX4t4P2aqw2A8&bih=754&biw=1536&hl=en-GB" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g2.webp" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Arambol Island, GOA</p>
+                <a href="https://www.google.com/search?q=places+to+visit+in++GOA&tbm=isch&ved=2ahUKEwjG1t_Nmdv7AhX8K7cAHVVjAPwQ2-cCegQIABAA&oq=places+to+visit+in++GOA&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIABAHEB46BwgAEIAEEBg6BggAEAUQHlCcBFjnI2CtKmgBcAB4AIABgAKIAfYKkgEFMC44LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=FROKY4b4MvzX3LUP1caB4A8&bih=754&biw=1536&hl=en-GB" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="gu1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Guwahati, ASSAM</p>
+                <a href="https://www.google.com/search?q=places+to+visit+in+ASSAM&tbm=isch&ved=2ahUKEwiLvpu0mNv7AhXc_DgGHazKChwQ2-cCegQIABAA&oq=places+to+visit+in+ASSAM&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAgQHjIHCAAQgAQQGDIHCAAQgAQQGDIHCAAQgAQQGDoECCMQJ1DGBFjYHWCYIWgBcAB4AYABswaIAbYYkgELMC42LjEuNS0yLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=0xGKY8uINNz54-EPrJWr4AE&bih=754&biw=1536&hl=en-GB" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="ad4.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Ladakh, HIMACHAL PRADESH</p>
+                <a href="https://www.google.com/search?q=places+to+visit+in+himachal+pradesh&tbm=isch&ved=2ahUKEwj99cXmmNv7AhUZ9jgGHZqBDa0Q2-cCegQIABAA&oq=places+to+visit+in+himachal&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeOgQIIxAnOgYIABAHEB46BggAEAgQHjoHCAAQgAQQGFDfBVjZImD6KmgAcAB4AIABywWIAZ8ckgENMC44LjMuMC4xLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=PRKKY73jGJns4-EPmoO26Ao&bih=754&biw=1536&hl=en-GB" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Stephney Mcman</h3>
+                    <p>The experience for my trip with TRAVELERS has been awesome! The management within TRAVELERS for all types of trips/ trekks are really well organised and doesn't let us(customers) face any issue because of it.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>Chris Evans</h3>
+                    <p>I had a very good experience with genuine service, costing, and great support services. Information of the trek was provided earlier timely and with clear directions and details.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>Elizabeth</h3>
+                    <p>TRAVELERS helped in locking the price. Ticket price was better then other competitors. it was easy process to book ticket. I will use it again</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>John Cena</h3>
+                    <p>Trip is well planned and Devansh Sharma from TRAVELERS is very helpful and genuine person. All the arrangements are up to the mark.Thanks to all TRAVELERS teams members for making this trip memorable</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Providing the best services to our cutomers,always ready to serve you the best,best in the bussiness.
+                CONTACT US: +91-XXXXXXXXXX<BR>
+
+                EMAIL-ID: TRAVELERS@INDIA@GMAIL.COM
+            </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Bangalore</a>
+            <a href="#">Kolkata</a>
+            <a href="#">Delhi</a>
+            <a href="#">Ahmedabad</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span>  Devansh Sharma and group </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
